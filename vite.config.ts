@@ -56,9 +56,10 @@
       },
     },
     build: {
-      target: 'esnext',
-      outDir: 'build',
-    },
+      target: "esnext",
+      outDir: "docs",
+  },
+  base: "",
     server: {
       port: 3000,
       open: true,
